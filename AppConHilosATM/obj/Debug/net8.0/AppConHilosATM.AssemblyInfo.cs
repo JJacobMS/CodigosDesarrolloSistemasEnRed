@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AppConHilos3")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AppConHilosATM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cebef00ccec859388581a81c1a91c489ec386327")]
-[assembly: System.Reflection.AssemblyProductAttribute("AppConHilos3")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AppConHilos3")]
+[assembly: System.Reflection.AssemblyProductAttribute("AppConHilosATM")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AppConHilosATM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
