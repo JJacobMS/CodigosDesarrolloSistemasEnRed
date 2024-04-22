@@ -1,4 +1,4 @@
-package grpcholamundo.servidor;
+package gRPCHolaMundo.HolaMundo.app.src.main.java.grpcholamundo.servidor;
 
 import java.io.IOException;
 import io.grpc.Server;
@@ -8,7 +8,10 @@ public class Servidor {
     public static void main(String[] args) throws IOException, InterruptedException{
         int puerto = 9000;
 
-        Server servidor = ServerBuilder.forPort(puerto).addService(new ServidorImpl()).build();
+        Server servidor = ServerBuilder
+        .forPort(puerto)
+        .addService(new ServidorImpl())
+        .build();
         
         servidor.start();
 
